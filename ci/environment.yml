@@ -4,9 +4,9 @@ channels:
 dependencies:
   - codecov
   - dataclasses
-  - numpydoc
   - papermill
   - pip
   - pytest
   - pytest-cov
+  - pyyaml
   - typer
