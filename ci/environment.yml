@@ -2,11 +2,12 @@ name: prepapermill-dev
 channels:
   - conda-forge
 dependencies:
+  - click
   - codecov
   - dataclasses
+  - ipykernel
   - papermill
   - pip
   - pytest
   - pytest-cov
   - pyyaml
-  - typer
