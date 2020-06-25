@@ -43,9 +43,8 @@ jobs:
       - name: Run Tests
         shell: bash -l {0}
         run: |
-          jupyter kernelspec list
-          # prepapermill notebooks/example.ipynb
-          # tree -L 3 notebooks/
+          prepapermill notebooks/example.ipynb
+          tree -L 3 notebooks/
 
       # - name: Upload code coverage to Codecov
       #   uses: codecov/codecov-action@v1

@@ -6,10 +6,10 @@
     :target: https://github.com/andersy005/prepapermill/actions
     :alt: GitHub Workflow Code Style Status
 
-.. image:: https://img.shields.io/codecov/c/github/andersy005/prepapermill.svg?style=for-the-badge
-    :target: https://codecov.io/gh/andersy005/prepapermill
-
 .. If you want the following badges to be visible, please remove this line, and unindent the lines below
+    .. image:: https://img.shields.io/codecov/c/github/andersy005/prepapermill.svg?style=for-the-badge
+        :target: https://codecov.io/gh/andersy005/prepapermill
+
     .. image:: https://img.shields.io/readthedocs/prepapermill/latest.svg?style=for-the-badge
         :target: https://prepapermill.readthedocs.io/en/latest/?badge=latest
         :alt: Documentation Status
