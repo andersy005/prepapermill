@@ -135,3 +135,4 @@ pkgs/
 .vscode/
 
 .DS_Store
+output/

@@ -3,10 +3,10 @@ channels:
   - conda-forge
 dependencies:
   - codecov
-  - netcdf4
+  - dataclasses
+  - numpydoc
+  - papermill
   - pip
   - pytest
   - pytest-cov
-  - xarray
-  - numpydoc
-  - nbsphinx
+  - typer
