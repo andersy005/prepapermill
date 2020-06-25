@@ -29,6 +29,38 @@ prepapermill
 pre-commit hooks for papermill (https://github.com/nteract/papermill)
 
 
+Usage
+-----
+
+.. code-block:: bash
+
+    $ prepapermill --help
+    Usage: prepapermill [OPTIONS] [FILENAMES]...
+
+    Options:
+    --kernel-name TEXT     Name of kernel to run
+    --parameter-file TEXT  [default: prepapermill.yaml]
+    --help                 Show this message and exit.
+
+
+Example
+-------
+
+.. code-block:: bash
+
+    $ prepapermill --parameter-file prepapermill.yaml notebooks/example.ipynb
+    Executing: 100%|██████████████████████████████| 4/4 [00:02<00:00,  1.92cell/s]
+    Executing: 100%|██████████████████████████████| 4/4 [00:02<00:00,  1.97cell/s]
+    $ tree -L 3 notebooks/                                      (sandbox) 11:23:46
+    notebooks/
+    ├── example.ipynb
+    └── output
+        ├── example_alpha_1000_ratio_400.ipynb
+        └── example_alpha_1_ratio_2.ipynb
+
+    1 directory, 3 files
+
+
 Development
 ------------
 

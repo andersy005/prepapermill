@@ -8,6 +8,4 @@ dependencies:
   - ipykernel
   - papermill
   - pip
-  - pytest
-  - pytest-cov
   - pyyaml
